@@ -23,14 +23,12 @@ def main():
     df['Income'] = income_df['All Persons Mean Wage']
     df['LeaveBool'] = df['Leave'] > df['Remain']
     df['PluralityCathBool'] = religion_df['Catholic'] > religion_df['Protestant']
-    df['diffPerCathProt'] = df['PercentCatholic']-df['PercentProtestant']
-
-    #print(df)
+    print(df)
 
     # Crosstab analysis of whether a constituency is Catholic v. whether it
     #   voted to leave.
     xt1 = pandas.crosstab(df['PluralityCathBool'],df['LeaveBool'])
-    #print(xt1)
+    print(xt1)
 
     # Linear regression (fitted using OLS) of percent Catholic v. percent voting
     #   to leave
