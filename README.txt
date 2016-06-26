@@ -12,3 +12,7 @@ ni_income.csv is a subset of "Gross Annual Pay - Annual Survey of Hours and
 ni_rel.csv is adapted from "Religion or Religion Brought Up In: KS212NI
   (administrative Geographies)", from Census 2011, accessed through NINIS.
   http://www.ninis2.nisra.gov.uk/public/PivotGrid.aspx?ds=7479&lh=73&yn=2011&sk=136&sn=Census%202011&yearfilter=2037
+
+Some or all of this data was originally published under Crown Copyright and
+under the Open Government Licence. Check the source websites for more
+information and usage restrictions.
